@@ -10,39 +10,45 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src={getImageUrl("about/aboutmeimg.jpg")}
-          alt="Me sitting with a laptop"
+          alt="Me working on laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
+          
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+                Experienced in building responsive, scalable, and high-performance 
+                UIs using React.js, JavaScript, and modern web practices.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+                Skilled in developing fast and secure backend systems using 
+                Java, Spring Boot, Microservices, and C# (Protrak) automation.
               </p>
             </div>
           </li>
+
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/cloudIcon.png")} alt="Cloud icon" />
             <div className={styles.aboutItemText}>
-              <h3>Cloud Computing</h3>
+              <h3>Cloud & DevOps</h3>
               <p>
-              I am Cloud Enthusiast with hands-on interest in deploying and managing cloud-based solutions across AWS platforms. 
+                Cloud enthusiast with hands-on experience in AWS & Azure, 
+                CI/CD automation, Docker, Terraform, and deploying reliable 
+                cloud-based solutions.
               </p>
             </div>
           </li>
+
         </ul>
       </div>
     </section>
